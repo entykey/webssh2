@@ -9,6 +9,7 @@
 WebSSH2 is an HTML5 web-based terminal emulator and SSH client. It uses SSH2 as a client on a host to proxy a Websocket / Socket.io connection to an SSH2 server.
 
 ![WebSSH2 Screenshot](DOCS/images/Screenshot_sm.png)
+![WebSSH2 Screenshot](DOCS/images/tuanhayho_preview.png)
 
 ## Quick Start
 
@@ -29,6 +30,16 @@ npm install --production
 # Start server
 npm start
 ```
+
+If encoutered:
+```
+sh: tsc: command not found
+```
+Install TypeScript locally in your project directory:
+```bash
+npm install typescript --save-dev
+```
+then run `npm start` again.
 
 Access WebSSH2 at: `http://localhost:2222/ssh`
 
